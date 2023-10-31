@@ -22,5 +22,6 @@ export default defineConfig({
     plugins: [
         htmlPurge({}),
         ViteMinifyPlugin({}),
-    ]
+    ],
+    base: "/Portafolio-actualizado/"
 })
